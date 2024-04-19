@@ -1,5 +1,9 @@
+'''
+2. Escreva um programa que solicita ao usuário para digitar dois números inteiros e exiba 
+a soma, o produto, a subtração e a divisão desses números na tela.
+'''
 def validNumber(number):
-    while True:
+    while 1:
         if number.isdigit():
             break
         else:
@@ -28,8 +32,8 @@ def divisao(num1, num2):
 if __name__ == '__main__':
     print('<<<<< MENU DE OPERAÇÕES >>>>>\n 1 - Soma\n 2 - Produto\n 3 - Subtração\n 4 - Divisão')
 
-    while True:
-        choice = input('Enter your choice: ').upper()
+    while 1:
+        choice = input('Enter your choice: ')
 
         if choice == '1':
             num1, num2 = requestNum()

@@ -1,3 +1,7 @@
+'''
+9. Escreva um programa que solicita ao usuário para digitar um número inteiro e, em 
+seguida, exiba a sequência de Fibonacci até o número digitado.
+'''
 def valid_number(number):
     while True:
         if number.isdigit():
