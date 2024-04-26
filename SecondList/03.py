@@ -50,6 +50,6 @@ if __name__ == "__main__":
             result = perform_difference(globals()[f"set{set_choice1}"], globals()[f"set{set_choice2}"])
             display_result("difference", result)
         elif option == 4:
-            print("Exiting the program...")
+            print("Exiting the program....")
         else:
             print("\nInvalid option. Please choose a valid option.")
